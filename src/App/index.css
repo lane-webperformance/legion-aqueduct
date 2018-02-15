@@ -1,0 +1,23 @@
+
+.menu-item {
+  color: #12d;
+  background: #fff;
+  border-width: 1px;
+  border-color: #333;
+  display: inline-block;
+  margin: 2mm;
+  padding: 1mm;
+}
+
+.menu-item.selected {
+  color: #fff;
+  background: #9ad;
+  border-color: #000;
+}
+
+.form {
+  background: #f8f8f8;
+  color: #111;
+  padding: 2mm;
+  border: 1px solid #aaa;
+}

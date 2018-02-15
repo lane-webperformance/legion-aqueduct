@@ -1,0 +1,12 @@
+body {
+  background: #eee;
+  color: #111;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  padding: 2mm;
+}
