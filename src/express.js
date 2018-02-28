@@ -7,7 +7,7 @@ const querystring = require('querystring');
 module.exports = function(params) {
   const app = express();
 
-  app.get('/', function(req, res) {
+  app.get('/', function(_req, res) {
     res.redirect('index.html?' + querystring.stringify(params));
   });
   

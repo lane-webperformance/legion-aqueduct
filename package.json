@@ -6,7 +6,7 @@
   "browser": "src/App/index.js",
   "scripts": {
     "start": "node src/server.js",
-    "build": "webpack",
+    "postinstall": "webpack",
     "test": "eslint ./src ./spec",
     "clean": "rimraf node_modules coverage dist .cache"
   },
